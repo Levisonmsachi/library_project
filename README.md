@@ -359,9 +359,9 @@ python manage.py runserver 8001
 
 | Contact | Link |
 |---------|------|
-| **Email** | your.email@example.com |
-| **GitHub** | [@yourusername](https://github.com/Levisonmsachi) |
-| **Twitter** | [@yourhandle](https://twitter.com/Levisonmsachi) |
+| **Email** | levisonmsachi03@gmail.com |
+| **GitHub** | [@Levisonmsachi](https://github.com/Levisonmsachi) |
+| **Twitter** | [@levvie-livvie](https://twitter.com/Levisonmsachi) |
 
 ---
 
