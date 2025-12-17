@@ -68,7 +68,7 @@ A **modern, scalable, and intuitive** library management web application built w
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/library-project.git
+git clone https://github.com/Levisonmsachi/library_project.git
 cd library_project
 ```
 
@@ -317,7 +317,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 Library Project Contributors
+Copyright (c) 2025 Library Project Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
@@ -350,8 +350,8 @@ python manage.py runserver 8001
 
 ### Getting Help
 - 📖 [Django Documentation](https://docs.djangoproject.com/)
-- 🐛 [Issue Tracker](https://github.com/yourusername/library-project/issues)
-- 💬 [Discussions](https://github.com/yourusername/library-project/discussions)
+- 🐛 [Issue Tracker](https://github.com/Levisonmsachi/library_project/issues)
+- 💬 [Discussions](https://github.com/Levisonmsachi/library_project/discussions)
 
 ---
 
@@ -360,14 +360,14 @@ python manage.py runserver 8001
 | Contact | Link |
 |---------|------|
 | **Email** | your.email@example.com |
-| **GitHub** | [@yourusername](https://github.com/yourusername) |
-| **Twitter** | [@yourhandle](https://twitter.com/yourhandle) |
+| **GitHub** | [@yourusername](https://github.com/Levisonmsachi) |
+| **Twitter** | [@yourhandle](https://twitter.com/Levisonmsachi) |
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by Library Project Team**
+**Made with ❤️ by LEVVIE-LIVVIE**
 
 ⭐ If you find this project helpful, please give it a star!
 
