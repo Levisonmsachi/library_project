@@ -1,0 +1,22 @@
+{% extends 'books/base.html' %}
+
+{% block title %}{{ book.title }} - Library{% endblock %}
+
+{% block content %}
+<h1>{{ book.title }}</h1>
+<p><strong>Author:</strong> {{ book.author }}</p>
+<p><strong>ISBN:</strong> {{ book.isbn }}</p>
+<p><strong>Status:</strong> 
+    {% if book.is_available %}
+        <span style="color: green;">Available ✓</span>
+    {% else %}
+        <span style="color: red;">Checked Out ✗</span>
+    {% endif %}
+</p>
+
+<h3>Description</h3>
+<p>{{ book.description }}</p>
+
+<a href="{% url 'book_list' %}">← Back to All Books</a><br/>
+<a href="{% url 'home' %}">← Back to Home</a><br/>
+{% endblock %}

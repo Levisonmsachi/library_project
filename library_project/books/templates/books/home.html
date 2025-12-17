@@ -1,0 +1,28 @@
+{% extends 'books/base.html' %}
+
+{% block title %}Home - Library{% endblock %}
+
+{% block content %}
+<h1>{{ welcome }}</h1>
+
+<div style="background: #f0f0f0; padding: 20px; margin: 20px 0;">
+    <h2>Library Stats</h2>
+    <p>Total books in library: <strong>{{ total_books }}</strong></p>
+    <p>Books available now: <strong>{{ available_books }}</strong></p>
+</div>
+
+<h2>Recent Additions</h2>
+
+{% if recent_books %}
+    {% for book in recent_books %}
+        <div style="border: 1px solid #ddd; padding: 15px; margin: 10px 0;">
+            <h3><a href="{% url 'book_detail' book.pk %}">{{ book.title }}</a></h3>
+            <p><strong>Author:</strong> {{ book.author }}</p>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>No recent books.</p>
+{% endif %}
+
+<p>Check out our collection of books!</p>
+{% endblock %}
