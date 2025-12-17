@@ -282,7 +282,7 @@ We welcome contributions! Here's how to get started:
 
 1. **Fork the repository**
 ```bash
-git clone https://github.com/yourusername/library-project.git
+git clone https://github.com/Levisonmsachi/library_project.git
 ```
 
 2. **Create feature branch**
